@@ -8,7 +8,7 @@ class School
     @roster = {} #initally set to empty collector
     # Option 3a
     # roster = Hash.new {|h,k| h[k] = []}
-      # if h 
+      # if h is new, calling method for first time with brand new key, it will automatically give u empty hash
   end
   
   def add_student(name, grade)
