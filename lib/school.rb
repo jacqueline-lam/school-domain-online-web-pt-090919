@@ -8,6 +8,7 @@ class School
     @roster = {} #initally set to empty collector
     # Option 3a
     # roster = Hash.new {|h,k| h[k] = []}
+      # 
   end
   
   def add_student(name, grade)
